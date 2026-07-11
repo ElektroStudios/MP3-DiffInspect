@@ -1,0 +1,1731 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DevCase.net48.ThirdParty.TagLibSharp
+</name>
+</assembly>
+<members>
+<member name="T:My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:DevCase.ThirdParty.TagLibSharp.APEv2Tag">
+ <summary>
+ Represents the <c>APEv2</c> tag for a MP3 file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="F:DevCase.ThirdParty.TagLibSharp.APEv2Tag.mp3File">
+ <summary>
+ The <see cref="T:TagLib.Mpeg.AudioFile"/> object.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Tag">
+ <summary>
+ Gets the <c>APEv2</c> tag of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ A <see cref="T:TagLib.Ape.Tag"/> representing the <c>APEv2</c> tag of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.IsEmpty">
+ <summary>
+ Gets a value indicating whether the <c>APEv2</c> tag is empty.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ <see langword="True"/> if the <c>APEv2</c> tag is empty, otherwise, <see langword="False"/>.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Album">
+ <summary>
+ Gets or sets the <c>Album</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Album</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Title">
+ <summary>
+ Gets or sets the <c>Title</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Title</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Artist">
+ <summary>
+ Gets or sets the <c>Artist</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Artist</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Genre">
+ <summary>
+ Gets or sets the <c>Genre</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Genre</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Year">
+ <summary>
+ Gets or sets the <c>Year</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Year</c> metatada field of the audio file, or <c>-1</c> if the field is not set.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Composer">
+ <summary>
+ Gets or sets the <c>Composer</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Composer</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Copyright">
+ <summary>
+ Gets or sets the <c>Copyright</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Copyright</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Comment">
+ <summary>
+ Gets or sets the <c>Comment</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Comment</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Track">
+ <summary>
+ Gets or sets the <c>Track</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Track</c> metatada field of the audio file, or <c>-1</c> if the field is not set.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Disc">
+ <summary>
+ Gets or sets the <c>Disc</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Disc</c> metatada field of the audio file, or <c>-1</c> if the field is not set.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Pictures">
+ <summary>
+ Gets or sets the <c>Pictures</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Pictures</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Lyrics">
+ <summary>
+ Gets or sets the <c>Lyrics</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Lyrics</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.MP3GainMinMax">
+ <summary>
+ Gets or sets the <c>MP3GAIN_MINMAX</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>MP3GAIN_MINMAX</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.MP3GainUndo">
+ <summary>
+ Gets or sets the <c>MP3GAIN_UNDO</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>MP3GAIN_UNDO</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.ReplayGainTrackGain">
+ <summary>
+ Gets or sets the <c>REPLAYGAIN_TRACK_GAIN</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>REPLAYGAIN_TRACK_GAIN</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.ReplayGainTrackPeak">
+ <summary>
+ Gets or sets the <c>REPLAYGAIN_TRACK_PEAK</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>REPLAYGAIN_TRACK_PEAK</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.ReplayGainAlbumGain">
+ <summary>
+ Gets or sets the <c>REPLAYGAIN_ALBUM_GAIN</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>REPLAYGAIN_ALBUM_GAIN</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.ReplayGainAlbumPeak">
+ <summary>
+ Gets or sets the <c>REPLAYGAIN_ALBUM_PEAK</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>REPLAYGAIN_ALBUM_PEAK</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Encoder">
+ <summary>
+ Gets or sets the <c>Encoder</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Encoder</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Supplier">
+ <summary>
+ Gets or sets the <c>Supplier</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Supplier</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Catalog">
+ <summary>
+ Gets or sets the <c>Catalog</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Catalog</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.RippingTool">
+ <summary>
+ Gets or sets the <c>Ripping Tool</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Ripping Tool</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Language">
+ <summary>
+ Gets or sets the <c>Language</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Language</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Media">
+ <summary>
+ Gets or sets the <c>Media</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Media</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.RipDate">
+ <summary>
+ Gets or sets the <c>Rip Date</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Rip Date</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.RetailDate">
+ <summary>
+ Gets or sets the <c>Retail Date</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Retail Date</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.EncodedBy">
+ <summary>
+ Gets or sets the <c>Encoded By</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Encoded By</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Publisher">
+ <summary>
+ Gets or sets the <c>PUBLISHER</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>PUBLISHER</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.APEv2Tag.#ctor">
+ <summary>
+ Prevents a default instance of the <see cref="T:DevCase.ThirdParty.TagLibSharp.APEv2Tag"/> class from being created.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.APEv2Tag.#ctor(TagLib.Mpeg.AudioFile)">
+ <summary>
+ Initializes a new instance of the <see cref="T:DevCase.ThirdParty.TagLibSharp.APEv2Tag"/> class.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <param name="mp3File">
+ The mp3 audio file.
+ </param>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Clear">
+ <summary>
+ Clears all the APEv2 fields.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.APEv2Tag.Remove">
+ <summary>
+ Entirely removes the APEv2 tag.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.APEv2Tag.SetCustomField(System.String,System.String)">
+ <summary>
+ Sets a custom metadata field in the APEv2 tag.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <param name="name">
+ The name of the field to create or set.
+ </param>
+ 
+ <param name="value">
+ The value to assign.
+ </param>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.APEv2Tag.RemoveCustomField(System.String)">
+ <summary>
+ Removes a custom metadata field in the APEv2 tag.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <param name="name">
+ The name of the field to remove.
+ </param>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.APEv2Tag.GetField(System.String)">
+ <summary>
+ Gets the specified metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <param name="fieldName">
+ The field name.
+ </param>
+
+ <returns>
+ The field value, or <see cref="T:System.String"/> if null.
+ </returns>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.APEv2Tag.SetField(System.String,System.String)">
+ <summary>
+ Sets a value for the specified metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <param name="fieldName">
+ The field name.
+ </param>
+ 
+ <param name="value">
+ The new value to assign.
+ </param>
+</member>
+<member name="T:DevCase.ThirdParty.TagLibSharp.ID3v1Tag">
+ <summary>
+ Represents the <c>ID3v1</c> tag for a MP3 file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="F:DevCase.ThirdParty.TagLibSharp.ID3v1Tag.mp3File">
+ <summary>
+ The <see cref="T:TagLib.Mpeg.AudioFile"/> object.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v1Tag.IsEmpty">
+ <summary>
+ Gets a value indicating whether the <c>ID3v1</c> tag is empty.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ <see langword="True"/> if the <c>ID3v1</c> tag is empty, otherwise, <see langword="False"/>.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v1Tag.Title">
+ <summary>
+ Gets or sets the <c>Title</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Title</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v1Tag.Artist">
+ <summary>
+ Gets or sets the <c>Artist</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Artist</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v1Tag.Album">
+ <summary>
+ Gets or sets the <c>Album</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Album</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v1Tag.Genre">
+ <summary>
+ Gets or sets the <c>Genre</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Genre</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v1Tag.Year">
+ <summary>
+ Gets or sets the <c>Year</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Year</c> metatada field of the audio file, or <c>-1</c> if the field is not set.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v1Tag.Comment">
+ <summary>
+ Gets or sets the <c>Comment</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Comment</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v1Tag.Track">
+ <summary>
+ Gets or sets the <c>Track</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Track</c> metatada field of the audio file, or <c>-1</c> if the field is not set.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v1Tag.Tag">
+ <summary>
+ Gets the <c>ID3v1</c> tag of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ A <see cref="T:TagLib.Id3v1.Tag"/> representing the <c>ID3v1</c> tag of the audio file.
+ </value>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.ID3v1Tag.#ctor">
+ <summary>
+ Prevents a default instance of the <see cref="T:DevCase.ThirdParty.TagLibSharp.ID3v1Tag"/> class from being created.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.ID3v1Tag.#ctor(TagLib.Mpeg.AudioFile)">
+ <summary>
+ Initializes a new instance of the <see cref="T:DevCase.ThirdParty.TagLibSharp.ID3v1Tag"/> class.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <param name="mp3File">
+ The mp3 audio file.
+ </param>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.ID3v1Tag.Clear">
+ <summary>
+ Clears all the ID3v1 fields.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.ID3v1Tag.Remove">
+ <summary>
+ Entirely removes the ID3v1 tag.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="T:DevCase.ThirdParty.TagLibSharp.ID3v2Tag">
+ <summary>
+ Represents the <c>ID3v2</c> tag for a MP3 file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v2Tag.IsEmpty">
+ <summary>
+ Gets a value indicating whether the <c>ID3v2</c> tag is empty.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ <see langword="True"/> if the <c>ID3v2</c> tag is empty, otherwise, <see langword="False"/>.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v2Tag.Title">
+ <summary>
+ Gets or sets the <c>Title</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Title</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v2Tag.Artist">
+ <summary>
+ Gets or sets the <c>Artist</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Artist</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v2Tag.Album">
+ <summary>
+ Gets or sets the <c>Album</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Album</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v2Tag.Genre">
+ <summary>
+ Gets or sets the <c>Genre</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Genre</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v2Tag.Year">
+ <summary>
+ Gets or sets the <c>Year</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Year</c> metatada field of the audio file, or <c>-1</c> if the field is not set.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v2Tag.Composer">
+ <summary>
+ Gets or sets the <c>Composer</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Composer</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v2Tag.Copyright">
+ <summary>
+ Gets or sets the <c>Copyright</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Copyright</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v2Tag.Comment">
+ <summary>
+ Gets or sets the <c>Comment</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Comment</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v2Tag.Track">
+ <summary>
+ Gets or sets the <c>Track</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Track</c> metatada field of the audio file, or <c>-1</c> if the field is not set.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v2Tag.Disc">
+ <summary>
+ Gets or sets the <c>Disc</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Disc</c> metatada field of the audio file, or <c>-1</c> if the field is not set.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v2Tag.Bpm">
+ <summary>
+ Gets or sets the <c>BPM</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>BPM</c> metatada field of the audio file, or <c>-1</c> if the field is not set.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v2Tag.Lyrics">
+ <summary>
+ Gets or sets the <c>Lyrics</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Lyrics</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v2Tag.Pictures">
+ <summary>
+ Gets or sets the <c>Pictures</c> metatada field of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Pictures</c> metatada field of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.ID3v2Tag.Tag">
+ <summary>
+ Gets the <c>ID3v2</c> tag of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ A <see cref="T:TagLib.Id3v2.Tag"/> representing the <c>ID3v2</c> tag of the audio file.
+ </value>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.ID3v2Tag.#ctor(TagLib.Mpeg.AudioFile)">
+ <summary>
+ Initializes a new instance of the <see cref="T:DevCase.ThirdParty.TagLibSharp.ID3v2Tag"/> class.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <param name="mp3File">
+ The mp3 audio file.
+ </param>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.ID3v2Tag.Clear">
+ <summary>
+ Clears all the ID3v2 fields.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.ID3v2Tag.Remove">
+ <summary>
+ Entirely removes the ID3v2 tag.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="T:DevCase.ThirdParty.TagLibSharp.Lyrics3Tag">
+ <summary>
+ Represents the <c>Lyrics3</c> tag for a MP3 file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="F:DevCase.ThirdParty.TagLibSharp.Lyrics3Tag.Mp3File">
+ <summary>
+ The <see cref="T:TagLib.Mpeg.AudioFile"/> object.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="F:DevCase.ThirdParty.TagLibSharp.Lyrics3Tag.MaxLength">
+ <summary>
+ The maximum length for the <c>Lyrics3</c> block to prevent issues like removing a false-positive block of data.
+ <para></para>
+ Note that this is a personal attempt to prevent catastrophes, not based on any official info.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.Lyrics3Tag.IsEmpty">
+ <summary>
+ Gets a value indicating whether the <c>Lyrics3</c> tag is empty.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ <see langword="True"/> if the <c>Lyrics3</c> tag is empty, otherwise, <see langword="False"/>.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.Lyrics3Tag.Raw">
+ <summary>
+ Gets the raw string data of the <c>Lyrics3</c> block.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The raw string data of the <c>Lyrics3</c> block.
+ </value>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.Lyrics3Tag.#ctor">
+ <summary>
+ Prevents a default instance of the <see cref="T:DevCase.ThirdParty.TagLibSharp.Lyrics3Tag"/> class from being created.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.Lyrics3Tag.#ctor(TagLib.Mpeg.AudioFile)">
+ <summary>
+ Initializes a new instance of the <see cref="T:DevCase.ThirdParty.TagLibSharp.Lyrics3Tag"/> class.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <param name="mp3File">
+ The mp3 audio file.
+ </param>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.Lyrics3Tag.Remove">
+ <summary>
+ Entirely removes the <c>Lyrics3</c> tag.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.Lyrics3Tag.GetRawString">
+ <summary>
+ Gets the raw string data of the <c>Lyrics3</c> block.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <returns>
+ The raw string data.
+ </returns>
+</member>
+<member name="T:DevCase.ThirdParty.TagLibSharp.MP3File">
+ <summary>
+ Reads, writes or removes the tags (ID3v1, ID3v2, APEv2) of a MP3 file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <example> This is a code example.
+ <code language="VB.NET">
+ Using file As New Mp3File("C:\File.mp3")
+ 
+     If file.IsCorrupt Then
+         MsgBox(file.CorruptionReasons)
+     End If
+ 
+     file.Cover = Image.FromFile("C:\Cover.jpg")
+ 
+     With file.Tags.ID3v1
+         .Title = "Title ID3v1"
+         .Album = "Album ID3v1"
+         .Artist = "Artist ID3v1"
+         .Genre = "Pop"
+         .Year = 2001
+         .Track = 1
+         .Comment = "Comment ID3v1"
+     End With
+ 
+     With file.Tags.ID3v2
+         .Title = "Title ID3v2"
+         .Album = "Album ID3v2"
+         .Artist = "Artist ID3v2"
+         .Composer = "Composer ID3v2"
+         .Genre = "Pop"
+         .Year = 2002
+         .Bpm = 202
+         .Disc = 2
+         .Track = 2
+         .Comment = "Comment ID3v2"
+         .Copyright = "Copyright ID3v2"
+     End With
+ 
+     If file.TagTypes.HasFlag(Mp3TagTypes.Apev2) Then
+         file.Tags.APEv2.Remove()
+     End If
+ 
+     file.SaveFile()
+ 
+ End Using
+ </code>
+ </example>
+</member>
+<member name="F:DevCase.ThirdParty.TagLibSharp.MP3File.tagFile">
+ <summary>
+ The <see cref="T:TagLib.Mpeg.AudioFile"/> object.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.MP3File.File">
+ <summary>
+ Gets the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.MP3File.Cover">
+ <summary>
+ Gets or sets the cover of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The cover of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.MP3File.Lyrics">
+ <summary>
+ Gets or sets the lyrics of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The lyrics of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.MP3File.IsWriteable">
+ <summary>
+ Gets a value indicating whether the tags can be written or not in the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ <see langword="True"/> if the tags can be written in the audio file, otherwise, <see langword="False"/>.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.MP3File.IsCorrupt">
+ <summary>
+ Gets a value indicating whether the audio file is possibly corrupt.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ <see langword="True"/> if the audio file is possibly corrupt, otherwise, <see langword="False"/>.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.MP3File.CorruptionReasons">
+ <summary>
+ Gets the reasons, if any, for which the file is corrupt.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The reasons, if any, for which the file is corrupt.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.MP3File.TagTypes">
+ <summary>
+ Gets the tag types of the audio file (Id3v1, Id3v2, APE, etc).
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The tag types of the audio file (Id3v1, Id3v2, APE, etc).
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.MP3File.Tags">
+ <summary>
+ Gets the MP3 tags.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The MP3 tags.
+ </value>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.MP3File.#ctor">
+ <summary>
+ Prevents a default instance of the <see cref="T:DevCase.ThirdParty.TagLibSharp.MP3File"/> class from being created.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.MP3File.#ctor(TagLib.Mpeg.AudioFile)">
+ <summary>
+ Initializes a new instance of the <see cref="T:DevCase.ThirdParty.TagLibSharp.MP3File"/> class.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <param name="mp3File">
+ The mp3 audio file.
+ </param>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.MP3File.#ctor(System.IO.FileInfo)">
+ <summary>
+ Initializes a new instance of the <see cref="T:DevCase.ThirdParty.TagLibSharp.MP3File"/> class.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <param name="file">
+ The audio file.
+ </param>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.MP3File.#ctor(System.String)">
+ <summary>
+ Initializes a new instance of the <see cref="T:DevCase.ThirdParty.TagLibSharp.MP3File"/> class.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <param name="filepath">
+ The audio file path.
+ </param>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.MP3File.SaveFile">
+ <summary>
+ Saves any tag modifications to the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <exception cref="T:System.IO.IOException">
+ File is not writeable.
+ </exception>
+ 
+ <exception cref="T:TagLib.CorruptFileException">
+ </exception>
+</member>
+<member name="F:DevCase.ThirdParty.TagLibSharp.MP3File.isDisposed">
+ <summary>
+ Flag to detect redundant calls when disposing.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.MP3File.Dispose">
+ <summary>
+ Releases all the resources used by this instance.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.MP3File.Dispose(System.Boolean)">
+ <summary>
+ Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <param name="isDisposing">
+ <see langword="True"/>  to release both managed and unmanaged resources; 
+ <see langword="False"/> to release only unmanaged resources.
+ </param>
+</member>
+<member name="T:DevCase.ThirdParty.TagLibSharp.MP3Tags">
+ <summary>
+ Represents the tags of a MP3 audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="F:DevCase.ThirdParty.TagLibSharp.MP3Tags.mp3File">
+ <summary>
+ The <see cref="T:TagLib.Mpeg.AudioFile"/> object.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.MP3Tags.ID3v1">
+ <summary>
+ Gets the <c>ID3v1</c> tag of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>ID3v1</c> tag of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.MP3Tags.ID3v2">
+ <summary>
+ Gets the <c>ID3v2</c> tag of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>ID3v2</c> tag of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.MP3Tags.APEv2">
+ <summary>
+ Gets the <c>APEv2</c> tag of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>APEv2</c> tag of the audio file.
+ </value>
+</member>
+<member name="P:DevCase.ThirdParty.TagLibSharp.MP3Tags.Lyrics3">
+ <summary>
+ Gets the <c>Lyrics3</c> tag of the audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <value>
+ The <c>Lyrics3</c> tag of the audio file.
+ </value>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.MP3Tags.#ctor">
+ <summary>
+ Prevents a default instance of the <see cref="T:DevCase.ThirdParty.TagLibSharp.MP3Tags"/> class from being created.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="M:DevCase.ThirdParty.TagLibSharp.MP3Tags.#ctor(TagLib.Mpeg.AudioFile)">
+ <summary>
+ Initializes a new instance of the <see cref="T:DevCase.ThirdParty.TagLibSharp.MP3Tags"/> class.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <param name="mp3File">
+ The mp3 audio file.
+ </param>
+</member>
+<member name="T:DevCase.ThirdParty.TagLibSharp.MP3TagTypes">
+ <summary>
+ Specifies a tag type of a MP3 audio file.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="F:DevCase.ThirdParty.TagLibSharp.MP3TagTypes.None">
+ <summary>
+ Any tag.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="F:DevCase.ThirdParty.TagLibSharp.MP3TagTypes.Id3v1">
+ <summary>
+ <c>ID3v1</c> tag.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="F:DevCase.ThirdParty.TagLibSharp.MP3TagTypes.Id3v2">
+ <summary>
+ <c>ID3v2</c> tag.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="F:DevCase.ThirdParty.TagLibSharp.MP3TagTypes.Apev2">
+ <summary>
+ <c>APEv2</c> tag.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="F:DevCase.ThirdParty.TagLibSharp.MP3TagTypes.Lyrics3">
+ <summary>
+ <c>Lyrics3</c> tag.
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="T:DevCase.ProjectMigration.SupportedOSPlatformAttribute">
+ <summary>
+ This attribute class is solely intended to simulate and therefore preserve the 
+ 'System.Runtime.Versioning.SupportedOSPlatformAttribute' attribute class when migrating projects to .NET Core.
+ <para></para>
+ This attribute class marks APIs that are supported for a specified platform or operating system. 
+ If a version is specified, the API cannot be called from an earlier version.
+ <para></para>
+ Multiple attributes can be applied to indicate support for multiple platforms or operating systems.
+ </summary>
+
+ <remarks>
+ For more information, see <see href="https://learn.microsoft.com/en-us/dotnet/api/system.runtime.versioning.supportedosplatformattribute">SupportedOSPlatformAttribute Class</see>.
+ </remarks>
+
+ <seealso cref="T:System.Attribute"/>
+</member>
+<member name="P:DevCase.ProjectMigration.SupportedOSPlatformAttribute.PlatformName">
+ <summary>
+ Gets the supported OS platform name that this attribute applies to, 
+ optionally including a version (eg. "windows7.0").
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+</member>
+<member name="M:DevCase.ProjectMigration.SupportedOSPlatformAttribute.#ctor(System.String)">
+ <summary>
+ Initializes a new instance of the <see cref="T:DevCase.ProjectMigration.SupportedOSPlatformAttribute"/> attribute class 
+ for the specified supported OS platform (eg. "windows7.0").
+ </summary>
+
+ <remarks>
+ Note: Some functionalities of this assembly may require to install one or all of the listed NuGet packages:
+ <para></para>
+ <see href="https://www.nuget.org/packages/TagLibSharp"/>
+ </remarks>
+
+ <param name="platformName">
+ The supported OS platform name that this attribute applies to, 
+ optionally including a version (eg. "windows7.0").
+ </param>
+</member>
+</members>
+</doc>
