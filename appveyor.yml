@@ -2,8 +2,8 @@
 # CUSTOMIZABLE TEMPLATE REPOSITORY VARIABLES
 # 
 environment:
-  APP_DIR_NAME: "PROJECT_NAME_WITHOUT_DASHES"
-  SOLUTION_EXT: "slnx"
+  APP_DIR_NAME: "MP3 DiffInspect"
+  SOLUTION_EXT: "sln"
 # ------------------------------------------
 
 version: CI Build {Build}

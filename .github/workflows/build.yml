@@ -2,9 +2,9 @@
 # CUSTOMIZABLE TEMPLATE REPOSITORY VARIABLES
 # 
 env:
-  SOLUTION_NAME: "PROJECT_NAME"
-  SOLUTION_EXT:  "slnx"
-  SONAR_PROJECT_KEY:  "ElektroStudios_PROJECT_NAME"
+  SOLUTION_NAME: "MP3 DiffInspect"
+  SOLUTION_EXT:  "sln"
+  SONAR_PROJECT_KEY:  "ElektroStudios_MP3-Comparer"
   SONAR_ORGANIZATION: "elektrostudios"
 # ------------------------------------------
 

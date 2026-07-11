@@ -23,36 +23,36 @@ winforms
 <div align="center">
   <img src="/Images/App.ico" width="100" alt="Logo">
   
-  <h1>PROJECT NAME</h1>
+  <h1>MP3 DiffInspect</h1>
 
-### PROJECT DESCRIPTION
+### A desktop application for side-by-side MP3 file comparison, analyzing audio stream equality and metadata tags.
 
 </div>
 
 ------------------
 
 <p align="center">
-    <a href="https://github.com/ElektroStudios/PROJECT_NAME/network/members"><img src="https://img.shields.io/github/forks/ElektroStudios/PROJECT_NAME.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%8D%B4%20Forks" alt="Forks"></a>&nbsp;
-    <a href="https://github.com/ElektroStudios/PROJECT_NAME/graphs/contributors"><img src="https://img.shields.io/github/contributors/ElektroStudios/PROJECT_NAME.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%91%A5%20Contributors" alt="Contributors"></a>&nbsp;
+    <a href="https://github.com/ElektroStudios/MP3-DiffInspect/network/members"><img src="https://img.shields.io/github/forks/ElektroStudios/MP3-DiffInspect.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%8D%B4%20Forks" alt="Forks"></a>&nbsp;
+    <a href="https://github.com/ElektroStudios/MP3-DiffInspect/graphs/contributors"><img src="https://img.shields.io/github/contributors/ElektroStudios/MP3-DiffInspect.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%91%A5%20Contributors" alt="Contributors"></a>&nbsp;
     <a href="https://github.com/ElektroStudios"><img src="https://img.shields.io/github/followers/ElektroStudios.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%91%A4%20Followers" alt="Followers"></a>&nbsp;
-    <a href="https://github.com/ElektroStudios/PROJECT_NAME/watchers"><img src="https://img.shields.io/github/watchers/ElektroStudios/PROJECT_NAME.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%91%80%20Watchers" alt="Watchers"></a>
+    <a href="https://github.com/ElektroStudios/MP3-DiffInspect/watchers"><img src="https://img.shields.io/github/watchers/ElektroStudios/MP3-DiffInspect.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%91%80%20Watchers" alt="Watchers"></a>
     <a href="https://github.com/sponsors/ElektroStudios"><img src="https://img.shields.io/github/sponsors/ElektroStudios.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%F0%9F%92%96%20Sponsors" alt="Sponsors"></a>&nbsp;
-    <a href="https://github.com/ElektroStudios/PROJECT_NAME/stargazers"><img src="https://img.shields.io/github/stars/ElektroStudios/PROJECT_NAME.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%E2%AD%90%20Stars" alt="Stars"></a>
+    <a href="https://github.com/ElektroStudios/MP3-DiffInspect/stargazers"><img src="https://img.shields.io/github/stars/ElektroStudios/MP3-DiffInspect.svg?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg%3D%3D&label=%E2%AD%90%20Stars" alt="Stars"></a>
   <br>
   <br>
-    <a href="https://ci.appveyor.com/project/ElektroStudios/PROJECT_NAME"><img src="https://ci.appveyor.com/api/projects/status/github/ElektroStudios/PROJECT_NAME?svg=true" alt="AppVeyor CI"></a>
-    <a href="https://sonarcloud.io/summary/new_code?id=ElektroStudios_PROJECT_NAME"><img src="https://sonarcloud.io/api/project_badges/measure?project=ElektroStudios_PROJECT_NAME&metric=alert_status" alt="SonarCloud Quality Gate"></a>
-    <a href="https://github.com/ElektroStudios/PROJECT_NAME/releases/latest"><img src="https://img.shields.io/github/v/release/ElektroStudios/PROJECT_NAME" alt="Latest Release"></a>
+    <a href="https://ci.appveyor.com/project/ElektroStudios/MP3-DiffInspect"><img src="https://ci.appveyor.com/api/projects/status/github/ElektroStudios/MP3-DiffInspect?svg=true" alt="AppVeyor CI"></a>
+    <a href="https://sonarcloud.io/summary/new_code?id=ElektroStudios_MP3-DiffInspect"><img src="https://sonarcloud.io/api/project_badges/measure?project=ElektroStudios_MP3-DiffInspect&metric=alert_status" alt="SonarCloud Quality Gate"></a>
+    <a href="https://github.com/ElektroStudios/MP3-DiffInspect/releases/latest"><img src="https://img.shields.io/github/v/release/ElektroStudios/MP3-DiffInspect" alt="Latest Release"></a>
     <a href="https://learn.microsoft.com/en-us/dotnet/visual-basic/"><img src="https://img.shields.io/badge/language-VB.NET-purple.svg?logo=visualbasic" alt="Language"></a>
     <a href="https://learn.microsoft.com/en-us/windows/apps/"><img src="https://img.shields.io/badge/platform-Windows-lightgray.svg" alt="Platform"></a>
-    <a href="LICENSE"><img src="https://img.shields.io/github/license/ElektroStudios/PROJECT_NAME" alt="License"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/github/license/ElektroStudios/MP3-DiffInspect" alt="License"></a>
   <br>
-    <a href="https://github.com/ElektroStudios/PROJECT_NAME/archive/head.zip"><img src="https://img.shields.io/github/repo-size/ElektroStudios/PROJECT_NAME" alt="Repo size"></a>
-    <a href="https://somsubhra.github.io/github-release-stats/?username=ElektroStudios&repository=PROJECT_NAME"><img src="https://img.shields.io/github/downloads/ElektroStudios/PROJECT_NAME/total.svg?label=total%20downloads" alt="Total Downloads"></a>
-    <a href="https://github.com/ElektroStudios/PROJECT_NAME/commits"><img src="https://img.shields.io/github/last-commit/ElektroStudios/PROJECT_NAME" alt="Last commit"></a>
-    <a href="https://github.com/ElektroStudios/PROJECT_NAME/pulls"><img src="https://img.shields.io/github/issues-pr/ElektroStudios/PROJECT_NAME" alt="Pull Requests"></a>
-    <a href="https://github.com/ElektroStudios/PROJECT_NAME/issues?q=is%3Aissue+is%3Aopen"><img src="https://img.shields.io/github/issues/ElektroStudios/PROJECT_NAME?color=blue" alt="Open Issues"></a><a href="https://github.com/ElektroStudios/PROJECT_NAME/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/ElektroStudios/PROJECT_NAME?label=&color=28a745" alt="Closed Issues"></a>
-    <a href="https://github.com/ElektroStudios/PROJECT_NAME/pulse"><img src="https://img.shields.io/badge/maintained-yes-green.svg" alt="Maintenance"></a>
+    <a href="https://github.com/ElektroStudios/MP3-DiffInspect/archive/head.zip"><img src="https://img.shields.io/github/repo-size/ElektroStudios/MP3-DiffInspect" alt="Repo size"></a>
+    <a href="https://somsubhra.github.io/github-release-stats/?username=ElektroStudios&repository=MP3-DiffInspect"><img src="https://img.shields.io/github/downloads/ElektroStudios/MP3-DiffInspect/total.svg?label=total%20downloads" alt="Total Downloads"></a>
+    <a href="https://github.com/ElektroStudios/MP3-DiffInspect/commits"><img src="https://img.shields.io/github/last-commit/ElektroStudios/MP3-DiffInspect" alt="Last commit"></a>
+    <a href="https://github.com/ElektroStudios/MP3-DiffInspect/pulls"><img src="https://img.shields.io/github/issues-pr/ElektroStudios/MP3-DiffInspect" alt="Pull Requests"></a>
+    <a href="https://github.com/ElektroStudios/MP3-DiffInspect/issues?q=is%3Aissue+is%3Aopen"><img src="https://img.shields.io/github/issues/ElektroStudios/MP3-DiffInspect?color=blue" alt="Open Issues"></a><a href="https://github.com/ElektroStudios/MP3-DiffInspect/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/ElektroStudios/MP3-DiffInspect?label=&color=28a745" alt="Closed Issues"></a>
+    <a href="https://github.com/ElektroStudios/MP3-DiffInspect/pulse"><img src="https://img.shields.io/badge/maintained-yes-green.svg" alt="Maintenance"></a>
   <br>
   <br>
     <a href="https://en.wikipedia.org/wiki/Spanish_Empire"><img src="https://img.shields.io/badge/Made_in-Spain_%F0%9F%87%AA%F0%9F%87%B8-AA151B?style=flat" alt="Made in Spain"></a>
@@ -62,33 +62,28 @@ winforms
 
 ## 👋 Introduction
 
-INTRODUCTION TEXT
+**MP3 DiffInspect** is a simple Windows desktop software engineered to analyze and compare two MP3 files side-by-side, immediately pinpointing exactly where they differ.
 
-## 💡 Motivation
-
-MOTIVATION TEXT
-
-##### ⚡ The Real Question
-###### REAL QUESTION TEXT
+It performs a raw byte-by-byte comparison of the underlying compressed audio frame sequences, and also validates specific global audio properties.
 
 ## 🖼️ Screenshots
 
-![screenshot](/Images/screenshot.png)
+![screenshot](/Images/screenshot1.png)
 
-## 🎦 Videos
-
-<!-- Download a recorded video by clicking [here](/Video/video.mp4) -->
-
-<!-- See a recorded video by clicking on the following button:
-[![PROJECT_NAME DEMO VIDEO](Images/demo_video.jpg)](https://www.youtube.com/watch?v=XXXXXXXXX)  -->
+![screenshot](/Images/screenshot2.png)
 
 ## 🤖 Features
 
-FEATURES TEXT
+— Dual layout to load and visually compare two files side by side with independent data panels.
+— Automatically highlights the specific rows where audio properties do not match between the two files.
+— Compares each audio frame byte-by-byte to determine differences in the raw sound stream data.
+— Compares embedded artwork byte-by-byte to determine if the images are identical.
+— Supports MP3 file drag-and-drop.
 
 ## ⚠️ Limitations
 
-LIMITATIONS TEXT
+— Only supports comparison of `.mp3` files.
+— Only determines differences based on the specific audio properties and metadata tags displayed in the data panels.
 
 ## 📝 Requirements
 
@@ -96,7 +91,7 @@ LIMITATIONS TEXT
 
 ## 🚀 Getting Started
 
-1. Navigate to the **[Releases page](https://github.com/ElektroStudios/PROJECT_NAME/releases/latest)**.
+1. Navigate to the **[Releases page](https://github.com/ElektroStudios/MP3-DiffInspect/releases/latest)**.
 2. Download the latest `.zip` archive or the `.exe` setup installer, depending on your preference.
 3. If you downloaded the `.zip` archive, extract its contents to your preferred directory.
    <br> 
@@ -114,10 +109,12 @@ Explore the complete list of changes, bug fixes, and improvements across differe
 This work relies on the following technologies, libraries or resources: 
 
  - [.NET Framework](https://dotnet.microsoft.com/en-us/download/dotnet-framework)
+ - [NAudio](https://github.com/naudio/naudio)
+ - [taglib-sharp](https://github.com/mono/taglib-sharp)
 
 ## 💪 Contributing
 
-Your contribution is highly appreciated!. If you have any ideas, suggestions, or encounter issues, feel free to open an issue by clicking [here](https://github.com/ElektroStudios/PROJECT_NAME/issues/new/choose). 
+Your contribution is highly appreciated!. If you have any ideas, suggestions, or encounter issues, feel free to open an issue by clicking [here](https://github.com/ElektroStudios/MP3-DiffInspect/issues/new/choose). 
 
 Your input helps make this Work better for everyone. Thank you for your support! 🚀
 
@@ -147,8 +144,6 @@ This software and its associated repository are provided strictly on an "as is" 
 The authors and copyright holders assume no liability for any direct, indirect, incidental, or consequential damages—including data loss or system errors—arising from the use, misuse, or inability to use this software. You are solely responsible for determining the appropriateness of using this tool and assume all associated risks.
 
 Furthermore, this project operates entirely independently. The utilization of any third-party libraries or components within this software does not imply any affiliation with, or endorsement or approval by, their respective original authors.
-
-This software may interact with third-party services, websites, or platforms. It is the user's sole responsibility to ensure that such use complies with the applicable terms of service, laws, and regulations. The authors do not endorse, and are not responsible for, any misuse of this software to violate third-party terms of service or applicable law.
 
 By using this software, you agree to indemnify and hold harmless the authors from any claims, damages, or liabilities arising from your use or misuse of it.
 
