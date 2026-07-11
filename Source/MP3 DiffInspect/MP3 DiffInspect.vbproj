@@ -179,6 +179,7 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.NETFramework.ReferenceAssemblies.net481.1.0.3\build\Microsoft.NETFramework.ReferenceAssemblies.net481.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.NETFramework.ReferenceAssemblies.net481.1.0.3\build\Microsoft.NETFramework.ReferenceAssemblies.net481.targets'))" />
   </Target>
   <PropertyGroup>
     <PostBuildEvent>del /F /Q "$(TargetDir)NAudio.Asio.*"
@@ -186,4 +187,5 @@ del /F /Q "$(TargetDir)NAudio.Midi.*"
 del /F /Q "$(TargetDir)NAudio.Wasapi.*"
 del /F /Q "$(TargetDir)NAudio.WinForms.*"</PostBuildEvent>
   </PropertyGroup>
+  <Import Project="..\packages\Microsoft.NETFramework.ReferenceAssemblies.net481.1.0.3\build\Microsoft.NETFramework.ReferenceAssemblies.net481.targets" Condition="Exists('..\packages\Microsoft.NETFramework.ReferenceAssemblies.net481.1.0.3\build\Microsoft.NETFramework.ReferenceAssemblies.net481.targets')" />
 </Project>
