@@ -47,7 +47,7 @@ winforms
     <a href="https://learn.microsoft.com/en-us/windows/apps/"><img src="https://img.shields.io/badge/platform-Windows-lightgray.svg" alt="Platform"></a>
     <a href="LICENSE"><img src="https://img.shields.io/github/license/ElektroStudios/MP3-DiffInspect" alt="License"></a>
   <br>
-    <a href="https://github.com/ElektroStudios/MP3-DiffInspect/archive/head.zip"><img src="https://img.shields.io/github/repo-size/ElektroStudios/MP3-DiffInspect" alt="Repo size"></a>
+    <a href="https://github.com/ElektroStudios/MP3-DiffInspect/archive/HEAD.zip"><img src="https://img.shields.io/github/repo-size/ElektroStudios/MP3-DiffInspect" alt="Repo size"></a>
     <a href="https://somsubhra.github.io/github-release-stats/?username=ElektroStudios&repository=MP3-DiffInspect"><img src="https://img.shields.io/github/downloads/ElektroStudios/MP3-DiffInspect/total.svg?label=total%20downloads" alt="Total Downloads"></a>
     <a href="https://github.com/ElektroStudios/MP3-DiffInspect/commits"><img src="https://img.shields.io/github/last-commit/ElektroStudios/MP3-DiffInspect" alt="Last commit"></a>
     <a href="https://github.com/ElektroStudios/MP3-DiffInspect/pulls"><img src="https://img.shields.io/github/issues-pr/ElektroStudios/MP3-DiffInspect" alt="Pull Requests"></a>
