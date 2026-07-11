@@ -1,12 +1,4 @@
-﻿# REPOSITORY NAME Change Log 📋
-
-## v1.1 *(current)* 🆕
-#### 🚀 New Features:
-    • Description
-#### 🛠️ Fixes:
-    • Description
-#### 🌟 Improvements:
-    • Description
+﻿# MP3 DiffInspect Change Log 📋
 
 ## v1.0 🔄
 Initial Release.
