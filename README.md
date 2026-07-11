@@ -25,7 +25,7 @@ winforms
   
   <h1>MP3 DiffInspect</h1>
 
-### A desktop application for side-by-side MP3 file comparison, analyzing audio stream equality and metadata tags.
+### A desktop application for side-by-side MP3 file comparison,<br>analyzing audio stream equality and metadata tags.
 
 </div>
 
