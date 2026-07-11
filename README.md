@@ -74,16 +74,16 @@ It performs a raw byte-by-byte comparison of the underlying compressed audio fra
 
 ## 🤖 Features
 
-— Dual layout to load and visually compare two files side by side with independent data panels.
-— Automatically highlights the specific rows where audio properties do not match between the two files.
-— Compares each audio frame byte-by-byte to determine differences in the raw sound stream data.
-— Compares embedded artwork byte-by-byte to determine if the images are identical.
-— Supports MP3 file drag-and-drop.
+- Dual layout to load and visually compare two files side by side with independent data panels.
+- Automatically highlights the specific rows where audio properties do not match between the two files.
+- Compares each audio frame byte-by-byte to determine differences in the raw sound stream data.
+- Compares embedded artwork byte-by-byte to determine if the images are identical.
+- Supports MP3 file drag-and-drop.
 
 ## ⚠️ Limitations
 
-— Only supports comparison of `.mp3` files.
-— Only determines differences based on the specific audio properties and metadata tags displayed in the data panels.
+- Only supports comparison of `.mp3` files.
+- Only determines differences based on the specific audio properties and metadata tags displayed in the data panels.
 
 ## 📝 Requirements
 
