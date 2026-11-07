@@ -48,7 +48,7 @@ Public NotInheritable Class Mp3Info : Implements IDisposable
                 Dim name As String = Path.GetFileNameWithoutExtension(Me.FileInfo.Name)
 
                 Dim prefixCandidate As String = name.Substring(0, Math.Min(5, name.Length))
-                If prefixCandidate?.Contains("."c) OrElse prefixCandidate?.Contains("-"c) Then
+                If prefixCandidate.Contains("."c) OrElse prefixCandidate.Contains("-"c) OrElse prefixCandidate.Contains("_"c) Then
                     Dim restOfName As String = name.Substring(prefixCandidate.Length)
                     prefixCandidate = Mp3Info.trackIndexPrefixRgx.Replace(prefixCandidate, "")
                     name = prefixCandidate & restOfName

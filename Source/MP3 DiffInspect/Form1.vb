@@ -1,12 +1,8 @@
-﻿Imports System.Collections.ObjectModel
-Imports System.IO
-Imports System.Text
+﻿Imports System.IO
 
 Imports DevCase.Core.Application.Forms
 Imports DevCase.Extensions
 Imports DevCase.UI.Components
-
-Imports NAudio.Wave
 
 Public Class Form1
 
@@ -225,170 +221,29 @@ Public Class Form1
             Exit Sub
         End If
 
-        Dim audioStreamDifferent As Boolean
+        Dim result As Mp3ComparisonResult = Mp3Comparer.Compare(Me.selectedMp3InfoObjectTop, Me.selectedMp3InfoObjectBottom)
 
-        Dim channelsEqual As Boolean = Me.selectedMp3InfoObjectTop.Channels = Me.selectedMp3InfoObjectBottom.Channels
-        Dim sampleRateEqual As Boolean = Me.selectedMp3InfoObjectTop.SampleRate = Me.selectedMp3InfoObjectBottom.SampleRate
-        Dim bitsPerSampleEqual As Boolean = Me.selectedMp3InfoObjectTop.BitsPerSample = Me.selectedMp3InfoObjectBottom.BitsPerSample
-        Dim bitrateEqual As Boolean = Me.selectedMp3InfoObjectTop.BitrateAverageKbps = Me.selectedMp3InfoObjectBottom.BitrateAverageKbps
-        Dim durationEqual As Boolean = Me.selectedMp3InfoObjectTop.Duration = Me.selectedMp3InfoObjectBottom.Duration
-
-        If Not channelsEqual OrElse
-           Not sampleRateEqual OrElse
-           Not bitsPerSampleEqual OrElse
-           Not bitrateEqual OrElse
-           Not durationEqual Then
-
-            audioStreamDifferent = True
-        End If
-
-        If Not audioStreamDifferent Then
-            Dim frameCountDifferent As Boolean =
-                (Me.selectedMp3InfoObjectTop.FrameCount <> Me.selectedMp3InfoObjectBottom.FrameCount)
-
-            If frameCountDifferent Then
-                audioStreamDifferent = True
-
-            Else ' Compare frame by frame.
-                ' NOTE: This iteration is a LOT faster than using the Mp3FrameSequenceComparer class.
-
-                Dim framesDifferent As Boolean
-
-                Dim topFrames As ReadOnlyCollection(Of Mp3Frame) = Me.selectedMp3InfoObjectTop.Frames
-                Dim bottomFrames As ReadOnlyCollection(Of Mp3Frame) = Me.selectedMp3InfoObjectBottom.Frames
-
-                For i As Integer = 0 To topFrames.Count - 1
-                    Dim topBytes As Byte() = topFrames(i).RawData
-                    Dim bottomBytes As Byte() = bottomFrames(i).RawData
-
-                    If topBytes.Length <> bottomBytes.Length Then
-                        framesDifferent = True
-                        Exit For
-                    End If
-
-                    For byteIndex As Integer = 0 To topBytes.Length - 1
-                        If topBytes(byteIndex) <> bottomBytes(byteIndex) Then
-                            framesDifferent = True
-                            Exit For
-                        End If
-                    Next
-
-                    If framesDifferent Then
-                        Exit For
-                    End If
-                Next
-
-                audioStreamDifferent = framesDifferent
-            End If
-        End If
-
-        If audioStreamDifferent Then
-            Me.LabelAudioStreamDiff.ForeColor = Color.IndianRed
-            Me.LabelAudioStreamDiff.Text = "🟥 Audio stream different"
-        Else
+        If result.AudioStreamIdentical Then
             Me.LabelAudioStreamDiff.ForeColor = Color.LimeGreen
             Me.LabelAudioStreamDiff.Text = "✅ Audio stream identical"
+        Else
+            Me.LabelAudioStreamDiff.ForeColor = Color.IndianRed
+            Me.LabelAudioStreamDiff.Text = "🟥 Audio stream different"
         End If
 
-        Dim artistEqual As Boolean = Me.selectedMp3InfoObjectTop.Artist = Me.selectedMp3InfoObjectBottom.Artist
-        Dim titleEqual As Boolean = Me.selectedMp3InfoObjectTop.Title = Me.selectedMp3InfoObjectBottom.Title
-        Dim albumEqual As Boolean = Me.selectedMp3InfoObjectTop.Album = Me.selectedMp3InfoObjectBottom.Album
-        Dim yearEqual As Boolean = Me.selectedMp3InfoObjectTop.Year = Me.selectedMp3InfoObjectBottom.Year
-
-        Dim coverEqual As Boolean
-        Using msCoverTop As New MemoryStream(), msCoverBottom As New MemoryStream()
-
-            Me.selectedMp3InfoObjectTop.Cover?.Save(msCoverTop, Imaging.ImageFormat.Bmp)
-            Me.selectedMp3InfoObjectBottom.Cover?.Save(msCoverBottom, Imaging.ImageFormat.Bmp)
-
-            If msCoverTop.Length <> msCoverBottom.Length Then
-                coverEqual = False
-            Else
-                msCoverTop.Position = 0
-                msCoverBottom.Position = 0
-
-                Dim bufferTop(UShort.MaxValue) As Byte
-                Dim bufferBottom(UShort.MaxValue) As Byte
-                Dim differenceFound As Boolean
-
-                While Not differenceFound AndAlso (msCoverTop.Position < msCoverTop.Length)
-                    Dim readTop As Integer = msCoverTop.Read(bufferTop, 0, bufferTop.Length)
-                    Dim readBottom As Integer = msCoverBottom.Read(bufferBottom, 0, bufferBottom.Length)
-
-                    For i As Integer = 0 To readTop - 1
-                        If bufferTop(i) <> bufferBottom(i) Then
-                            differenceFound = True
-                            Exit For
-                        End If
-                    Next
-                End While
-
-                coverEqual = Not differenceFound
-            End If
-        End Using
-
-        Dim sbOtherDiffs As New StringBuilder()
-
-        If Not channelsEqual Then
-            sbOtherDiffs.Append("Channels, ")
-        End If
-
-        If Not sampleRateEqual Then
-            sbOtherDiffs.Append("Sample Rate, ")
-        End If
-
-        If Not bitsPerSampleEqual Then
-            sbOtherDiffs.Append("Bits Per Sample, ")
-        End If
-
-        If Not bitrateEqual Then
-            sbOtherDiffs.Append("Bitrate, ")
-        End If
-
-        If Not durationEqual Then
-            sbOtherDiffs.Append("Duration, ")
-        End If
-
-        If Not coverEqual Then
-            sbOtherDiffs.Append("Cover, ")
-        End If
-
-        If Not artistEqual OrElse
-           Not titleEqual OrElse
-           Not albumEqual OrElse
-           Not yearEqual Then
-
-            sbOtherDiffs.Append("Metadata tags, ")
-        End If
-
-        If sbOtherDiffs.Length = 0 Then
+        If result.HasOtherDifferences Then
+            Me.LabelOtherDifferencesResult.ForeColor = Color.FromArgb(188, 188, 29)
+            Me.LabelOtherDifferencesResult.Text = result.OtherDifferencesSummary
+        Else
             Me.LabelOtherDifferencesResult.ForeColor = Color.LimeGreen
             Me.LabelOtherDifferencesResult.Text = "None"
-
-        Else
-            Dim value As String = sbOtherDiffs.ToString()
-            value = value.TrimEnd({" "c, ","c})
-
-            Me.LabelOtherDifferencesResult.ForeColor = Color.FromArgb(188, 188, 29)
-            Me.LabelOtherDifferencesResult.Text = value
         End If
 
-        ' Build the list of PropertyGrid labels that actually differ.
+        ' The list of PropertyGrid labels that actually differ.
         ' These must match the DisplayName of each property exposed by the
         ' object bound to the PropertyGrid (check <DisplayName("...")> attributes
         ' or the raw property names if no attribute is set).
-        Dim diffs As New List(Of String)()
-
-        If Not artistEqual Then diffs.Add("Artist")
-        If Not titleEqual Then diffs.Add("Title")
-        If Not albumEqual Then diffs.Add("Album")
-        If Not yearEqual Then diffs.Add("Year")
-        If Not channelsEqual Then diffs.Add("Channels")
-        If Not sampleRateEqual Then diffs.Add("Sample Rate")
-        If Not bitsPerSampleEqual Then diffs.Add("Bits Per Sample")
-        If Not bitrateEqual Then diffs.Add("Bitrate")
-        If Not durationEqual Then diffs.Add("Duration")
-        If Not coverEqual Then diffs.Add("Cover")
+        Dim diffs As New List(Of String)(result.DifferentPropertyDisplayNames)
 
         ' Clean up previous subclassers if they exist.
         If _topHighlighter IsNot Nothing Then _topHighlighter.Dispose()
