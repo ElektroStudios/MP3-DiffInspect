@@ -23,7 +23,7 @@ Imports NAudio.Wave
 ''' <para></para>
 ''' This logic is UI-independent so that it can be unit tested.
 ''' </summary>
-Public NotInheritable Class Mp3Comparer
+Public NotInheritable Class Mp3Comparer ' NOSONAR
 
 #Region " Constructors "
 

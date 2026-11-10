@@ -19,7 +19,7 @@ Imports System.Text
 ''' <summary>
 ''' Represents the immutable result of comparing two <see cref="Mp3Info"/> objects.
 ''' </summary>
-Public NotInheritable Class Mp3ComparisonResult
+Public NotInheritable Class Mp3ComparisonResult ' NOSONAR
 
 #Region " Constants "
 
